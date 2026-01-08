@@ -186,13 +186,11 @@ li a{
 /* foth-sec */
 .forth-sec-container{
     display: flex;
-    /* justify-content: center; */
     margin: 155px;
 }
 .first-img{
     height: 500px;
     width: 500px;
-    /* margin-right: 240px; */
 }
 .forth-info{
     padding-top: 85px;
@@ -227,8 +225,8 @@ li img{
     border-radius: 12px;
     justify-content: center;
     text-align: center;
-    margin: 0px 160px;
-    padding: 80px;
+    margin: 0px 160px 160px;
+    padding: 0px 80px;
 }
 .fifth-info h2{
     font-size: 40px;
@@ -255,4 +253,36 @@ li img{
 .fifth-btn img{
     height: 20px;
     width: 20px;
+}
+/* footer */
+#footer-sec{
+    background-color: rgb(24, 24, 69);
+    max-height: 348px ;
+    width: 100%;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+.footer-info img{
+    height: 60px;
+    width: 170px;
+}
+.footer-para{
+    color: white;
+}
+.footer-para img{
+    height:15px;
+    width: 15px;
+    margin-left: 9px;
+    border-radius: 100%;
+    background-color: white;
+
+}
+.copyright-sec{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 14px;
 }
