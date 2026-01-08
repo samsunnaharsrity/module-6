@@ -219,3 +219,40 @@ li img{
     height: 12px;
     width: 12px;
 }
+/* fifth-sec */
+#fifth-sec{
+    width: 81%;
+    height: auto;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 160px;
+    padding: 80px;
+}
+.fifth-info h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.fifth-info p{
+    font-size: 13px;
+    color: #627382;
+    padding: 16px;
+}
+.fifth-btn{
+    background-color: #30B868;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    height: 40px;
+    width: 160px;
+    display: flex;
+    padding-top: 10px;
+    border: none;
+    margin-left: 480px;
+}
+.fifth-btn img{
+    height: 20px;
+    width: 20px;
+}
