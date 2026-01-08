@@ -55,7 +55,7 @@ li a{
 #hero-sec{
     background-image: url(./assets/hero-bg.png);
     height: auto;
-    width:1600px ;
+    width:100% ;
 }
 .hero-sec-top{
     margin-left: 575px;
@@ -134,4 +134,51 @@ li a{
     height: 14px;
     width: 14px;
     
+}
+/* card-sec */
+.card-sec-container{
+    width: 100%;
+    height: auto;
+}
+.card-sec-info h1{
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-sec-info p{
+    font-size: 13px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.card-container{
+    display: flex;
+    margin-left: 336px;
+    text-align: center;
+    /* height: 300px;
+    width: 1360px; */
+    gap: 25px;
+    
+}
+.card-info{
+    height: 200px;
+    width: 210px;
+    padding-top: 40px;
+    border-radius: 8px;
+    background-color: #e7ebef;
+    /* border: 1px solid black; */
+}
+.card-info img{
+    background-color: #F95555;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    border-radius: 100%;
+}
+.card-info p{
+    font-size: 12px;
+    color: #627382;
+    padding-top: 10px;
 }
