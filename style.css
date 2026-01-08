@@ -155,7 +155,7 @@ li a{
 }
 .card-container{
     display: flex;
-    margin-left: 336px;
+    margin-left: 160px;
     text-align: center;
     /* height: 300px;
     width: 1360px; */
@@ -163,22 +163,59 @@ li a{
     
 }
 .card-info{
-    height: 200px;
-    width: 210px;
-    padding-top: 40px;
+    height: 285px;
+    width: 295px;
+    padding-top: 72px;
     border-radius: 8px;
     background-color: #e7ebef;
     /* border: 1px solid black; */
 }
 .card-info img{
     background-color: #F95555;
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
     padding: 6px;
+    margin-bottom: 20px;
     border-radius: 100%;
 }
 .card-info p{
     font-size: 12px;
     color: #627382;
     padding-top: 10px;
+}
+/* foth-sec */
+.forth-sec-container{
+    display: flex;
+    /* justify-content: center; */
+    margin: 155px;
+}
+.first-img{
+    height: 500px;
+    width: 500px;
+    /* margin-right: 240px; */
+}
+.forth-info{
+    padding-top: 85px;
+}
+.forth-info h3{
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.forth-info p{
+    font-size: 14px;
+    color: #627382;
+    margin-left: 40px;
+    padding-bottom: 15px;
+}
+.forth-info li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+li img{
+    height: 12px;
+    width: 12px;
 }
