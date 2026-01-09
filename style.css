@@ -35,6 +35,10 @@
 li a{
     color: black;
 }
+.nav-btn:hover{
+    background-color:  #288d4a;
+    cursor: pointer;
+}
 .nav-btn{
     background-color: #30B868;
     color: white;
@@ -60,6 +64,10 @@ li a{
 .hero-sec-top{
     margin-left: 575px;
     padding-bottom: 16px;
+}
+.hero-sec-top-btn:hover{
+    background-color:  #becdc3;
+    cursor: pointer;
 }
 .hero-sec-top-btn{
     justify-content: center;
@@ -107,6 +115,11 @@ li a{
     height: 15px;
     width: 15px;
 }
+.hero-sec-btn .btn-1:hover{
+    background-color:  #288d4a;
+    cursor: pointer;
+}
+    
 .hero-sec-btn .btn-1{
     border: none;
     display:flex;
@@ -118,6 +131,10 @@ li a{
     width: 160px;
     height: 40px;
    padding-top: 10px;
+}
+.hero-sec-btn .btn-2:hover{
+    background-color:  #288d4a;
+    cursor: pointer;
 }
 .hero-sec-btn .btn-2{
     font-size: 10px;
@@ -237,6 +254,10 @@ li img{
     font-size: 13px;
     color: #627382;
     padding: 16px;
+}
+.fifth-btn:hover{
+    background-color:  #288d4a;
+    cursor: pointer;
 }
 .fifth-btn{
     background-color: #30B868;
